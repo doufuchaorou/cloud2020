@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @auther zzyy
- * @create 2020-02-24 16:26
+ * @auther vegedog
+ * @create 2020-04-08 10:39
  */
-@EnableDiscoveryClient
 @SpringBootApplication
-public class MainApp8401 {
+@EnableDiscoveryClient
+public class PaymentMain9003 {
     public static void main(String[] args) {
-        SpringApplication.run(MainApp8401.class, args);
+        SpringApplication.run(PaymentMain9003.class, args);
     }
 }
